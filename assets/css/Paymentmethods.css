@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.title {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.title .number {
+    width: 35px;
+    height: 35px;
+    background: #0B610B;
+    border-radius: 20px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: bold;
+    margin: -10px 7px;
+    padding: 0;
+    float: left;
+}
+.number b {
+    margin-left: 11px;
+}
+.cart-title {
+    margin-top: 20px;
+    color: #0B610B;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 50px;
+}
+table.item_pay {
+   width: 100%;
+   border: 1px solid #ddd;
+   margin-bottom: 18px;
+}
+table.item_pay .payment_item {
+    border-right: 1px solid #ddd; 
+    padding: 10px 10px;
+    text-align: center;
+    line-height: 40px;
+    cursor:pointer;
+}
+table.item_pay input {
+    cursor:pointer;
+}
+table.item_pay .item_pay_1 {
+    border-bottom: 1px solid #ddd;
+}
+.info {
+    border: 1px solid #ddd;
+}
+.info_methods p {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+}

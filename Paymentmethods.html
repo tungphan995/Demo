@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Cart</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link href="./assets/css/style.css" rel="stylesheet" type="text/css" media="screen,print" />
+    <link href="./assets/css/Paymentmethods.css" rel="stylesheet" type="text/css" media="screen,print" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="body-wrapper">
+        <div class="main-header row">
+                <div class="col-md-12">
+                    <div class="container-fluid">
+                        <div class="row">
+                                    <div class="col-sm-4">
+                                        <div class="logo">
+                                            <a href="index.html"><img src="./assets/images/Asset 20.png" width="250px" height="80px" alt="Vivmall"></a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="search_box">
+                                            <form>
+                                                <input value="" type="text" id="search-form"> <input id="btnsearchbasic" type="button">
+                                            </form>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <div class="shop_cart">
+                                            <div class="row">
+                                                <div class="col-md-5">
+                                                    <div class="shopping-item">
+                                                        <a href="cart.html" id="linkshoppingcart" class="btn ">
+                                                            <i class="fa fa-shopping-cart" aria-hidden="true"></i> 	
+                                                            <span class="product-count">2</span>							 
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-7">
+                                                    <a id="linklikeproduct" class="btn ">
+                                                        <span> Đăng kí</span>                                 
+                                                    </a>
+                                                    <span class="btn item-btn">|</span>
+                                                    <a id="linklikeproduct" class="btn btn_cl">
+                                                        <span>Đăng nhập</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                         
+                              </div>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="width: 100%;">
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <!--<a class="nav-link" href="#"><i class="fa fa-list-ul" aria-hidden="true"></i> DANH MỤC</a>-->
+                                <a class="nav-link" href="#" data-toggle="dropdown"><i class="fa fa-list-ul" aria-hidden="true"></i> DANH MỤC</a>
+                                    <ul class="dropdown-menu dropdown-list" role="menu">
+                                        <li class="list-item"><a href="electronic.html">Điện Tử</a></li>
+                                        <li class="list-item"><a href="#">Mỹ Nghệ Dừa</a></li>
+                                        <li class="list-item"><a href="#">Thời Trang - Làm Đẹp</a></li>
+                                        <li class="list-item"><a href="#">Quà Tặng - Trang Trí</a></li>
+                                        <li class="list-item"><a href="#">Phụ Kiện</a></li>
+                                    </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">GIỚI THIỆU</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">KHUYẾN MÃI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">LIÊN HỆ</a>
+                            </li>
+                        </ul>
+                   </div>
+                </nav>
+                <navbar class="">
+                        <ul class="">
+                            <li><a href="electronic.html">Điện Tử</a></li>
+                            <li><a href="#">Mỹ Phẩm Dừa</a></li>
+                            <li><a href="#">Thời Trang - Làm Đẹp</a></li>
+                            <li><a href="#">Quà Tặng - Trang Trí</a></li>
+                            <li><a href="#">Phụ Kiện</a></li>	
+                        </ul>
+                </navbar> 
+        </div><!--main-header--> 
+       <div class="clear"></div>
+       <div class="row">
+           <div class="col-sm-12">  
+                <div class="title">
+                    <p class="number"><b>4</b></p>
+                        <h4 class="cart-title">PHƯƠNG THỨC THANH TOÁN</h4>
+                </div>
+           </div>
+       </div>
+       <div class="row">
+           <div class="col-sm-12">
+                <table class="item_pay">   
+                    <tr class="item_pay_1">
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_1">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_1" /></span>
+                        </td>
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_2">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_2" /></span>
+                        </td>
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_3">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_3" /></span>
+                        </td>
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_4">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_4" /></span>
+                        </td>
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_5">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_5" /></span>
+                        </td>
+                        <td class="payment_item" data-toggle="collapse" data-target="#methods_6">
+                            <span>Thanh toán khi nhận hàng</span><br>
+                            <span><img src="assets/images/1.jpg" alt=""></span><br>
+                            <span><input type="radio" name="text" data-toggle="collapse" data-target="#methods_6" /></span>
+                        </td>
+                    </tr>    
+                </table>
+                <div class="col-sm-12 info">
+                <div class="info_methods">
+                    <div id="methods_1" class="collapse"><p>aaaaa</p><p>aaaaa</p><p>aaaaa</p><p>aaaaa</p></div>
+                    <div id="methods_2" class="collapse">bbbbb</div>
+                    <div id="methods_3" class="collapse">ccccc</div>
+                    <div id="methods_4" class="collapse">dddddd</div>
+                    <div id="methods_5" class="collapse">eeeeeee</div>
+              
+                </div>   
+           </div>
+           </div>  
+       </div>
+       <div class="row footer footer-item">           
+            <div class="col-sm-6">
+                <h2>KHAI TÂM TRÍ LTD, CO.</h2>
+                <p>Địa chỉ: 36 Tran Quy Street, Ward 06, Dist. 11, Ho Chi Minh City.</p>
+                <p>Điện thoại: 08.62866208</p>
+                <p>Email:khaitamtri.ltd@gmail.com</p>
+                <p>Buslness Reglstration No. 013022192 by DPI HCMC on 20 Nov, 2014.</p>
+            </div>                           
+            <div class="col-sm-6">    
+                <h2>DANH MỤC</h2>
+                <p>Điện Tử</p>
+                <p>Mỹ Nghệ Dừa</p>
+                <p>Thời Trang - Làm Đẹp</p>
+                <p>Quà Tặng - Trang Trí</p>
+                <p>Phụ Kiện</p>
+            </div>              
+        </div>
+            <a class="btn-top" href="javascript:void(0);" title="Top" style="display: inline;"></a>
+        </div>
+  </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <script>
+        $('.payment_item input[type="radio"]').click(function() {
+            if (!$(this).is(':checked')) {
+                $(this).parent('.payment_item').addClass('active');
+            } else {
+                $(this).parent('.payment_item').removeClass('active');
+            }
+            });
+    </script>
+</body>
+
+</html>
